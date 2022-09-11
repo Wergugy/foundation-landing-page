@@ -12,7 +12,7 @@ Credits for Photos
 
  - Amador Loureiro from Unsplash
 
-
+ - Susan Holt Simpson from Unsplash
 
 
   
