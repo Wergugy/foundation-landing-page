@@ -1,10 +1,23 @@
+html,
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
 
 header {
     padding: 0px 20px;
     gap: 5px;
 }
 
-.hero,
+.heroContainer,
 header {
     background-color: #1f2937;
     display: flex;
@@ -13,19 +26,17 @@ header {
 
 .logo {
     height: 100px;
-    width:  150px;
+    width: 150px;
     margin-bottom: -5px;
 }
 
 img {
- max-width: 100%;
- max-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     display: flex;
     gap: 30px;
 }
@@ -56,8 +67,16 @@ a {
     font-size: 18px;
 }
 
-.hero.right {
-    height: 100px;
-    width: 100px;
-    flex: 0 1 auto;
+.heroRight {
+    width: 500px;
+}
+
+.heroLeft {
+    /*flex: 1;*/
+    width: 500px;
+}
+
+.heroContainer {
+    justify-content: center;
+    height: 700px;
 }
