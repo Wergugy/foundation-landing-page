@@ -136,3 +136,33 @@ img.info {
     color: #59687e;
     margin-top: 0.5em;
 }
+
+p.quote {
+    color: #1f2937;
+}
+
+div.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 500px;
+    background: #e5e7eb;
+}
+
+.quote.wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.quote.credit {
+    align-self: flex-end;
+    font-weight: 900;
+}
+
+.quote.content {
+    width: 500px;
+    font-size: 36px;
+}
